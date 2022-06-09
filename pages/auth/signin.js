@@ -27,7 +27,8 @@ export async function getServerSideProps(){
     const providers= await getProviders();
     return{
         props:{
-            providers
+            providers,
+            secret:"aa37e4519b275ab694bd9e4eb1867ac1"
         }
     }
 }
